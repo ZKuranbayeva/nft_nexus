@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Neue Machina';
+    src: url(../fonts/NeueMachina-Light.woff2) format(woff2),
+        url(../fonts/NeueMachina-Light.woff) format(woff);
+    font-style: normal;
+    font-weight: ;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Machina';
+    src: url(../fonts/NeueMachina-Light.woff2),
+         url(../fonts/NeueMachina-Light.woff);
+}
+
+body{
+    margin: 0;
+}
+
+.container{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: url(../images/header__bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
