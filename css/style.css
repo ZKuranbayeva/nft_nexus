@@ -35,6 +35,7 @@ a{
     margin: 0 auto;
 }
 
+/* Main section */
 .header{
     background-image: url(../images/header__bg.png);
     background-repeat: no-repeat;
@@ -105,31 +106,60 @@ a{
 
 .btn{
     width: 250px;
-    padding: 20px 0;
+    padding: 1.5rem 0.5rem;
+    font-family: Neue Machina;
+    text-transform: uppercase;
+    margin-bottom: 1.25rem;
+    font-size: 1.4rem;
+    font-weight: 800;
+    cursor: pointer;
 }
 
 .button__login{
-
     color: #FFF;
-    font-family: Neue Machina;
-    font-size: 22px;
-    font-weight: 800;
-    text-transform: uppercase;
     background-color: #FE8235;
     border: none;
-    margin-bottom: 20px;
-    cursor: pointer;
 }
 
 .button__register{
-   
     border: 1px solid #FE8235;
     color: #FE8235;
     background-color: transparent;
-    font-family: Neue Machina;
-    font-size: 22px;
-    font-weight: 800;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    cursor: pointer;
 }
+/* /Main section */
+
+
+/* Partners section */
+.partners{
+    background-color: #7FFA8A;
+}
+
+.partners__items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5.5rem 0;
+}
+/* /Partners section */
+
+
+/* About_one section */
+.about{
+    background-color: #0A0A0A;
+    font-family: Neue Machina;
+    color: #FFF;
+}
+
+.about__item h2{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 120%;
+    padding-top: 9rem;
+}
+
+.about__item p{
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 120%;
+}
+/* /About_one section */
