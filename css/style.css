@@ -24,6 +24,7 @@
 
 body{
     margin: 0;
+    background-color: #0A0A0A;
 }
 
 a{
@@ -47,11 +48,13 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 0.5rem;
     padding: 2rem;
     opacity: 0.699999988079071;
     background: var(--0-a-0-a-0-a, #0A0A0A);
     backdrop-filter: blur(25px);
+}
+.menu__list{
+    flex-grow: 2;
 }
 
 .menu__list-item{
@@ -132,6 +135,7 @@ a{
 /* Partners section */
 .partners{
     background-color: #7FFA8A;
+
 }
 
 .partners__items{
@@ -143,9 +147,12 @@ a{
 /* /Partners section */
 
 
-/* About_one section */
+/* About section */
+path:hover{
+    fill: #0A0A0A;
+}
+
 .about{
-    background-color: #0A0A0A;
     font-family: Neue Machina;
     color: #FFF;
 }
@@ -162,4 +169,39 @@ a{
     font-weight: 400;
     line-height: 120%;
 }
-/* /About_one section */
+
+.about__item-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about__item-card{
+    background-color: #5224B5;
+    width: 360px;
+    margin-bottom: 2.5rem;
+    padding: 2.5rem 2rem 0 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.about__item-card:hover{
+    background-color: #FE8235;
+    color: #0A0A0A;
+}
+
+.about__item-paragraph{
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-pr{
+    font-size: 2.25rem;
+    line-height: 140%;
+}
+
+.second-pr{
+    line-height: 140%;
+    font-size: 2rem;
+}
+/* /About section */
