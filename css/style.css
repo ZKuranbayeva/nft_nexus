@@ -29,6 +29,8 @@ body{
 
 a{
     text-decoration: none;
+    cursor: pointer;
+    color: #FFF;
 }
 
 .container{
@@ -164,7 +166,7 @@ path:hover{
     padding-top: 9rem;
 }
 
-.about__item p{
+.about__item>p{
     font-size: 2rem;
     font-weight: 400;
     line-height: 120%;
@@ -193,15 +195,88 @@ path:hover{
 .about__item-paragraph{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 3rem;
 }
 
 .first-pr{
     font-size: 2.25rem;
     line-height: 140%;
+    margin-right: 10rem;
 }
 
 .second-pr{
     line-height: 140%;
     font-size: 2rem;
+    align-self: stretch;
+    flex-basis: 1500px;
+}
+
+.about__item-menu{
+    margin-bottom: 2rem;
+}
+
+.about__menu-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__menu-list ul{
+    padding-inline-start: 0;
+}
+
+.about__menu-list li{
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.about__menu-list a{
+    background-color: #252525;
+    padding: 1.5rem;
+    font-size: 1.125rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.about__menu-list a:hover{
+    background-color: #7FFA8A;
+    color: #0A0A0A;
+}
+
+.about__menu-list img{
+}
+
+.panda__card{
+    background-color: #5224B5;
+    margin-bottom: 2.25rem;
+}
+
+.panda__card>h3{
+    padding-left: 1.5rem;
+}
+
+.panda__card-item{
+    padding-left: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.card-logo{
+    color: #FE8235;
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 175.4%;
+    letter-spacing: 0.48px;
+    position: relative;
+    bottom: 10px;
+    left: 5px;
+}
+
+.card-avatar{
+    position: relative;
+    top: 15px;
+    right: 5px;
+}
+
+.card-user{
+    padding-top: 20px;
 }
 /* /About section */
