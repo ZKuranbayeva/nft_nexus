@@ -192,6 +192,15 @@ path:hover{
     color: #0A0A0A;
 }
 
+.about__item-card i{
+    font-size: 3.5rem;
+    color: #FE8235;
+}
+
+.about__item-card:hover i{
+    color: #0A0A0A;
+}
+
 .about__item-paragraph{
     display: flex;
     justify-content: space-between;
@@ -242,9 +251,6 @@ path:hover{
     color: #0A0A0A;
 }
 
-.about__menu-list img{
-}
-
 .panda__card{
     background-color: #5224B5;
     margin-bottom: 2.25rem;
@@ -277,6 +283,63 @@ path:hover{
 }
 
 .card-user{
-    padding-top: 20px;
+    padding-top: 1.125rem;
 }
 /* /About section */
+
+
+/* Community section */
+.community{
+    background-color: #1A1919;
+}
+
+.community h3{
+    color: #FFF;
+    font-family: Neue Machina;
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 120%;
+    padding-top: 4.125rem;
+}
+
+.community p{
+    color: #FFF;
+    font-family: Neue Machina;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.community__steps{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.community__step{
+    height: 264px;
+    margin-bottom: 9.2rem;
+}
+
+.community__step>span{
+    color:  #7FFA8A;
+    font-family: Neue Machina;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 120%;
+    padding-bottom: 2rem;
+}
+
+.community__step-item{
+    background-color: #5224B5;
+    padding: 1.5rem;
+
+}
+
+.community__step-item>p{
+    color: var(--ffffff, #FFF);
+    font-family: Neue Machina;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 120%;
+}
+/* /Community section */
