@@ -343,3 +343,38 @@ path:hover{
     line-height: 120%;
 }
 /* /Community section */
+
+
+/* Explore section */
+.explore{
+    align-items: center;
+}
+
+.explore h3{
+    color: var(--ffffff, #FFF);
+    text-align: center;
+    font-family: Neue Machina;
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 130%;
+}
+
+.explore input{
+    color: #FE8235;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 1px solid #FE8235;
+    padding: 1.5rem 2rem;
+    width: 460px;
+}
+
+.green__box{
+    background-color: #7FFA8A;
+    height: 480px;
+}
+
+.green__box img{
+    position: relative;
+    bottom: 100px;
+}
+/* /Explore section */
