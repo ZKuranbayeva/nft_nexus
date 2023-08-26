@@ -654,18 +654,21 @@ path:hover {
         flex-direction: column;
         height: 775px;
     }
-    .step-four{
-        order: 5;
+    .reversed-steps{
+        flex-direction: column-reverse;
     }
-
+    .explore {
+        align-items: center;
+        height: 615px;
+    }
+    .explore__items img{
+        max-width: 760px;
+        top: 41px;
+    }
 }
 
 
 @media (max-width: 835px){
-    .header{
-        background-color: #5224B5;
-        background-image: none;
-    }
     .header__body{
         margin-top: 10rem;
         display: block;
@@ -673,6 +676,9 @@ path:hover {
     }
     .header__body-text{
         text-align: center;
+    }
+    .header__body-text h1{
+        -webkit-text-stroke: 1px #5224B5;
     }
     .header__body-buttons{
         text-align: center;
@@ -733,6 +739,14 @@ path:hover {
     }
     
 }
+@media (max-width: 775px){
+    .explore h3{
+        font-size: 2rem;
+    }
+    .explore input{
+        width: 330px;
+    }
+}
 
 @media (max-width: 770px){
     .about__item h2{
@@ -786,6 +800,13 @@ path:hover {
     .second-pr{
         font-size: 1.2rem;
     }
+    .community h3 {
+        font-size: 2rem;
+    }
+    .community>p{
+        font-size: 1.3rem;
+        line-height: 130%;
+    }
 }
 
 @media (max-width: 440px){
@@ -796,7 +817,7 @@ path:hover {
         margin-top: 1.5rem;
     }
     .header__body-text h1 {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
         line-height: 120%;
     }
     .header__body-text p {
@@ -813,6 +834,9 @@ path:hover {
         padding: 0.5rem 0.5rem;
         font-size: 0.5rem;
     }
+    .partners__items img{
+        width: 200px;
+    }
     .about__item-card {
         width: 280px;
         padding: 1.5rem 1rem 0 1rem;
@@ -828,6 +852,28 @@ path:hover {
     }
     .panda__card>img{
         width: 250px;
+    }
+}
+
+@media (max-width: 350px){
+    .about__item-card {
+        background-color: #5224B5;
+        width: 240px;
+        margin-bottom: 2.5rem;
+        padding: 1.5rem 1rem 0 1rem;
+        font-size: 16px;
+    }
+    .about__item-card svg{
+        width: 50px;
+    }
+    .community__step {
+        width: 240px;
+    }
+    .community__steps+.community__steps {
+        margin-top: 225px;
+    }
+    .community__step-item svg{
+        width: 50px;
     }
 }
     
