@@ -773,16 +773,6 @@ path:hover {
         text-align: center;
     }
 }
-
-
-
-
-@media (max-width: 790px){
-    .explore__items img{
-        top: -21px;
-    }
-}
-
 @media (max-width: 775px) {
     .explore {
         height: 485px;
@@ -826,9 +816,6 @@ path:hover {
         height: 285px;
     }
 
-    /* .footer-logo img{
-        height: 10px;
-    } */
     .footer__list p {
         font-size: 11px;
     }
