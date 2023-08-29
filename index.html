@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UZ-Compatible" content="ie-edge">
     <title>NFT Nexuz</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -19,21 +20,26 @@
                     </a>
                 </div>
                 <nav class="menu__list">
+                    <button class="menu__btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 0 448 512">
+                            <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" fill="#939393 "/>
+                        </svg>
+                    </button>
                     <ul class="menu__list-items">
                         <li class="menu__list-item">
-                            <a href="#" class="menu__list-link">Home</a>
+                            <a href="#header" class="menu__list-link">Home</a>
                         </li>
                         <li class="menu__list-item">
-                            <a href="#" class="menu__list-link">Discover</a>
+                            <a href="#about" class="menu__list-link">Discover</a>
                         </li>
                         <li class="menu__list-item">
-                            <a href="#" class="menu__list-link">Download</a>
+                            <a href="#download" class="menu__list-link">Download</a>
                         </li>
                         <li class="menu__list-item">
-                            <a href="#" class="menu__list-link">Community</a>
+                            <a href="#community" class="menu__list-link">Community</a>
                         </li>
                         <li class="menu__list-item">
-                            <a href="#" class="menu__list-link">Explore</a>
+                            <a href="#explore" class="menu__list-link">Explore</a>
                         </li>
                     </ul>
                 </nav>
@@ -72,7 +78,7 @@
     <!-- /Partners section -->
 
     <!-- About section  -->
-    <div class="about">
+     <div class="about" id="about">
         <div class="container about__items">
             <div class="about__item">
                 <h2>Are you ready to join<br>the NFT revolution?</h2>
@@ -86,9 +92,9 @@
 
             <div class="about__item">
                 <h2>Why NFT Nexus?</h2>
-                <div class="about__item-cards">
+                <div class="about__item-cards"> 
 
-                    <div class="about__item-card">
+                     <div class="about__item-card">
                         <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" fill="none">
                             <path fill-rule="evenodd" clip-rule="evenodd"
                                 d="M37.4508 6C40.8498 6 58.6848 12.123 61.0458 14.484C63.0138 16.452 62.9838 18.042 62.8458 25.662C62.7918 28.716 62.7168 32.877 62.7168 38.637C62.7168 59.283 39.1068 66.669 38.1018 66.972C37.8888 67.038 37.6698 67.068 37.4508 67.068C37.2318 67.068 37.0128 67.038 36.7998 66.972C35.7948 66.669 12.1848 59.283 12.1848 38.637C12.1848 32.886 12.1098 28.725 12.0558 25.671C12.0312 24.3087 12.01 23.1389 12.003 22.1252L12.0021 20.9813C12.0279 17.2234 12.3806 15.96 13.8588 14.484C16.2138 12.123 34.0488 6 37.4508 6ZM37.4508 10.5C34.9068 10.5 18.8568 16.152 17.0058 17.697C16.4598 18.246 16.4388 19.2 16.5558 25.587C16.6098 28.665 16.6848 32.847 16.6848 38.637C16.6848 54.24 33.8508 61.167 37.4478 62.442C41.0418 61.161 58.2168 54.195 58.2168 38.637C58.2168 32.841 58.2918 28.656 58.3488 25.578C58.4628 19.197 58.4418 18.243 57.8628 17.667C56.0478 16.152 39.9948 10.5 37.4508 10.5ZM48.6153 28.0185C49.4943 28.8975 49.4943 30.3225 48.6153 31.2015L36.9213 42.8985C36.5853 43.2369 36.1514 43.4563 35.6856 43.5305L35.3313 43.5585C34.7343 43.5585 34.1613 43.3215 33.7383 42.8985L28.0623 37.2165C27.1863 36.3375 27.1863 34.9095 28.0653 34.0335C28.9413 33.1545 30.3693 33.1545 31.2483 34.0335L35.3313 38.1225L45.4353 28.0185C46.3143 27.1395 47.7363 27.1395 48.6153 28.0185Z"
@@ -138,7 +144,7 @@
                     </div>
 
                 </div>
-
+ 
             </div>
 
             <div class="about__item">
@@ -156,9 +162,13 @@
                 </div>
             </div>
 
-            <div class="about__item">
+            <div class="about__item" id="download">
                 <div class="about__item-menu">
                     <div class="about__menu-list">
+                        <div class="select">
+                            <span class="selected">SECTIONS</span>
+                            <div class="caret"></div>
+                        </div>
                         <ul>
                             <li>
                                 <a class="about__menu-link" href="#">ALL</a>
@@ -176,7 +186,7 @@
                                 <a class="about__menu-link" href="#">ANIMAL</a>
                             </li>
                         </ul>
-                        <a href="">
+                        <a class="about__search" href="#">
                             <img src="images/search (1).svg" alt="Image">
                         </a>
 
@@ -256,7 +266,7 @@
     <!-- /About section  -->
 
     <!-- Community section -->
-    <div class="community" id="community">
+     <div class="community" id="community">
         <div class="container">
             <h3>How to Upload Your Art as an NFT on NFT Nexus</h3>
             <p>Bring your artwork to life as a Non-Fungible Token on [Brand Name]. Our platform makes it easy for
@@ -264,7 +274,7 @@
                 <br><br>Follow these simple steps to get started:
             </p>
 
-            <div class="community__steps">
+            <div class="community__steps"> 
 
                 <div class="community__step step-one">
                     <span>Step 1</span>
@@ -286,8 +296,8 @@
                                 d="M37.4508 6C40.8498 6 58.6848 12.123 61.0458 14.484C63.0138 16.452 62.9838 18.042 62.8458 25.662C62.7918 28.716 62.7168 32.877 62.7168 38.637C62.7168 59.283 39.1068 66.669 38.1018 66.972C37.8888 67.038 37.6698 67.068 37.4508 67.068C37.2318 67.068 37.0128 67.038 36.7998 66.972C35.7948 66.669 12.1848 59.283 12.1848 38.637C12.1848 32.886 12.1098 28.725 12.0558 25.671C12.0312 24.3087 12.01 23.1389 12.003 22.1252L12.0021 20.9813C12.0279 17.2234 12.3806 15.96 13.8588 14.484C16.2138 12.123 34.0488 6 37.4508 6ZM37.4508 10.5C34.9068 10.5 18.8568 16.152 17.0058 17.697C16.4598 18.246 16.4388 19.2 16.5558 25.587C16.6098 28.665 16.6848 32.847 16.6848 38.637C16.6848 54.24 33.8508 61.167 37.4478 62.442C41.0418 61.161 58.2168 54.195 58.2168 38.637C58.2168 32.841 58.2918 28.656 58.3488 25.578C58.4628 19.197 58.4418 18.243 57.8628 17.667C56.0478 16.152 39.9948 10.5 37.4508 10.5ZM48.6153 28.0185C49.4943 28.8975 49.4943 30.3225 48.6153 31.2015L36.9213 42.8985C36.5853 43.2369 36.1514 43.4563 35.6856 43.5305L35.3313 43.5585C34.7343 43.5585 34.1613 43.3215 33.7383 42.8985L28.0623 37.2165C27.1863 36.3375 27.1863 34.9095 28.0653 34.0335C28.9413 33.1545 30.3693 33.1545 31.2483 34.0335L35.3313 38.1225L45.4353 28.0185C46.3143 27.1395 47.7363 27.1395 48.6153 28.0185Z"
                                 fill="#FE8235" />
                         </svg>
-                        <p>Click on the "Upload Art" button from the main menu</p>
-                    </div>
+                        <p>Click on the "Upload Art" button from the main menu</p> 
+                     </div>
                 </div>
 
                 <div class="community__step step-three">
@@ -301,11 +311,11 @@
                         <p>Select the image file of your artwork and provide a detailed description, including the
                             title, artist name, and any other relevant information.</p>
                     </div>
-                </div>
+                </div> 
 
 
             </div>
-            <div class="community__steps">
+            <div class="community__steps reversed-steps">
 
                 <div class="community__step step-six">
                     <span>Step 6</span>
@@ -330,7 +340,7 @@
                         <p>Set your asking price for the NFT and choose any additional options, such as a bidding
                             process or a fixed price sale.</p>
                     </div>
-                </div>
+                </div> 
 
                 <div class="community__step step-four">
                     <span>Step 4</span>
@@ -346,7 +356,7 @@
             </div>
 
         </div>
-    </div>
+    </div> 
     <!-- /Community section -->
 
     <!-- Explore section -->
@@ -365,11 +375,11 @@
     </div>
 
     <div class="green__box">
-    </div>
+    </div> 
     <!-- /Explore section -->
 
     <!-- Footer -->
-    <footer class="footer">
+     <footer class="footer">
         <div class="footer__content container">
 
             <div class="footer__items">
@@ -379,7 +389,7 @@
                     </a>
                     <p>3891 Ranchview Dr. Richardson, California 62639</p>
                 </div>
-                <div class="footer__list">
+                <div class="footer__list footer-one ">
                     <h3 class="footer__list-title">Company</h3>
                     <a href="#">About Us</a>
                     <a href="#">Discover</a>
@@ -387,7 +397,7 @@
                     <a href="#">Blog</a>
                     <a href="#">Contact</a>
                 </div>
-                <div class="footer__list">
+                <div class="footer__list footer-one">
                     <h3 class="footer__list-title">Services</h3>
                     <a href="#">Pricing</a>
                     <a href="#">Products</a>
@@ -396,7 +406,7 @@
                     <a href="#">Success Stories</a>
                     <a href="#">More</a>
                 </div>
-                <div class="footer__list">
+                <div class="footer__list footer-one">
                     <h3 class="footer__list-title">Support</h3>
                     <a href="#">About us</a>
                     <a href="#">Legal</a>
@@ -430,14 +440,13 @@
             </div>
 
         </div>
-    </footer>
+    </footer> 
     <!-- /Footer -->
 
 
 
-
-
-
+    <script src="js/jquery.js"></script>
+    <script src="js/my.js"></script>
 </body>
 
-</html>
+</html> 
