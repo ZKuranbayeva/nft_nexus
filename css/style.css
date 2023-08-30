@@ -21,6 +21,9 @@
     font-weight: 400;
     font-display: swap;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body {
     margin: 0;
@@ -442,6 +445,8 @@ path:hover {
     padding: 1.5rem 2rem;
     width: 460px;
     margin-right: 16px;
+    color: #FE8235;
+    font-size: 16px;
 }
 
 .explore__items {
@@ -568,7 +573,7 @@ path:hover {
         padding-left: 2rem;
         padding-right: 2rem;
     }
-
+    
     .community h3 {
         font-size: 2.5rem;
     }
@@ -671,6 +676,10 @@ path:hover {
 }
 
 @media (max-width: 985px) {
+    .community{
+        padding: 0 2rem;
+    }
+
     .community__steps {
         align-items: center;
         flex-direction: column;
@@ -1013,12 +1022,20 @@ path:hover {
     .explore {
         height: 275px;
     }
+    .explore h3 {
+        margin-top: 50px;
+    }
     .explore-btn {
+        font-size: 16px;
         width: 235px;
         display: block;
         margin: 25px auto;
         left: -8px;
         border: 1px solid #FE8235;
+    }
+    .explore input::placeholder{
+        text-align: center;
+        font-size: 16px;
     }
     .explore__items img{
         display: none;
